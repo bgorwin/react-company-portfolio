@@ -24,17 +24,17 @@ function App() {
 
 			<AnimatePresence exitBeforeEnter>
 				<Switch location={location} key={location.pathname}>
-					<Route path='/' exact>
+					<Route path='/react-personal-portfolio/' exact>
 						<AboutUs />
 					</Route>
 
-					<Route path='/work' exact>
+					<Route path='/react-personal-portfolio/work' exact>
 						<OurWork />
 					</Route>
-					<Route path='/work/:id'>
+					<Route path='/react-personal-portfolio/work/:id'>
 						<MovieDetail />
 					</Route>
-					<Route path='/contact'>
+					<Route path='/react-personal-portfolio/contact'>
 						<ContactUs />
 					</Route>
 				</Switch>

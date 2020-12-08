@@ -46,7 +46,7 @@ const OurWork = () => {
 			<Movie>
 				<motion.h2 variants={fade}>The Athlete</motion.h2>
 				<motion.div variants={lineAnim} className='line'></motion.div>
-				<Link to='/work/the-athlete'>
+				<Link to='/react-personal-portfolio/work/the-athlete'>
 					<Hide>
 						<motion.img variants={photoAnim} src={athlete} alt='athlete' />
 					</Hide>
@@ -56,7 +56,7 @@ const OurWork = () => {
 			<Movie ref={element} variants={fade} animate={controls} initial='hidden'>
 				<h2>The Racer</h2>
 				<motion.div variants={lineAnim} className='line'></motion.div>
-				<Link to='/work/the-racer'>
+				<Link to='/react-personal-portfolio/work/the-racer'>
 					<img src={theracer} alt='racer' />
 				</Link>
 			</Movie>
