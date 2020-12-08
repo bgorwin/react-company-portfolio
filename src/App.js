@@ -31,10 +31,10 @@ function App() {
 					<Route path='/react-personal-portfolio/work' exact>
 						<OurWork />
 					</Route>
-					<Route path='/react-personal-portfolio/work/:id'>
+					<Route path='/react-personal-portfolio/work/:id' exact>
 						<MovieDetail />
 					</Route>
-					<Route path='/react-personal-portfolio/contact'>
+					<Route path='/react-personal-portfolio/contact' exact>
 						<ContactUs />
 					</Route>
 				</Switch>

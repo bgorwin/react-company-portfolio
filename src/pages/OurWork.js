@@ -69,7 +69,7 @@ const OurWork = () => {
 			>
 				<h2>Good Times</h2>
 				<motion.div variants={lineAnim} className='line'></motion.div>
-				<Link to='/work/good-times'>
+				<Link to='/react-personal-portfolio/work/good-times'>
 					<img src={goodtimes} alt='good times' />
 				</Link>
 			</Movie>
