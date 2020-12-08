@@ -1,6 +1,6 @@
 {
-	"homepage": "http://bgorwin.github.io/react-company-portfolio",
-	"name": "react-company-portfolio",
+	"homepage": "http://bgorwin.github.io/react-personal-portfolio",
+	"name": "react-personal-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
